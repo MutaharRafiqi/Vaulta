@@ -1,5 +1,5 @@
 /* ========================================
-   HOME PAGE
+   VAULTA HOME PAGE
    ======================================== */
 
 .main-content {
@@ -16,8 +16,65 @@
   margin-bottom: 10px;
 }
 
+.page-header p {
+  color: var(--text-secondary);
+}
+
 .subject-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
+  margin-bottom: 48px;
+}
+
+/* Bottom Section */
+
+.home-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* Quick Stats */
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.stats-list p {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-secondary);
+}
+
+.stats-list strong {
+  color: var(--text-primary);
+}
+
+/* Quote */
+
+.quote-card blockquote {
+  margin-top: 18px;
+  font-size: var(--fs-lg);
+  line-height: 1.7;
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.quote-author {
+  display: block;
+  margin-top: 20px;
+  color: var(--text-muted);
+  font-size: var(--fs-sm);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .home-bottom {
+    grid-template-columns: 1fr;
+  }
 }
