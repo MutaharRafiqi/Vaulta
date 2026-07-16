@@ -2,6 +2,8 @@
    VAULTA GLOBAL STYLES
    ======================================== */
 
+/* Base Layout */
+
 html,
 body {
   width: 100%;
@@ -9,6 +11,7 @@ body {
   font-family: var(--font-family);
   background-color: var(--bg);
   color: var(--text-primary);
+  overflow-x: hidden;
 }
 
 /* Text Selection */
@@ -18,10 +21,18 @@ body {
   color: #ffffff;
 }
 
-/* Scrollbar */
+/* Firefox Scrollbar */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) var(--bg);
+}
+
+/* Chrome / Edge Scrollbar */
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -37,14 +48,17 @@ body {
   background: var(--surface-hover);
 }
 
-/* Smooth transitions */
+/* Smooth Transitions */
 
-* {
+*,
+*::before,
+*::after {
   transition:
     background-color var(--transition),
     color var(--transition),
     border-color var(--transition),
-    transform var(--transition);
+    transform var(--transition),
+    opacity var(--transition);
 }
 
 /* Main Container */
@@ -54,7 +68,17 @@ body {
   margin: 0 auto;
 }
 
-/* Prevent accidental text selection */
+/* Utility Classes */
+
+.hidden {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Prevent Accidental Selection */
 
 button,
 img,

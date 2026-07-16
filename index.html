@@ -7,7 +7,6 @@
     <title>Vaulta</title>
 
     <!-- Google Font -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -17,20 +16,94 @@
     />
 
     <!-- Base CSS -->
-
     <link rel="stylesheet" href="css/base/reset.css" />
     <link rel="stylesheet" href="css/base/variables.css" />
     <link rel="stylesheet" href="css/base/global.css" />
     <link rel="stylesheet" href="css/base/typography.css" />
 
     <!-- Components -->
-
     <link rel="stylesheet" href="css/components/sidebar.css" />
+    <link rel="stylesheet" href="css/components/card.css" />
 
-    <!-- Page -->
-
+    <!-- Page CSS -->
     <link rel="stylesheet" href="css/pages/home.css" />
   </head>
 
-  <body></body>
+  <body>
+    <!-- ======================
+         Sidebar
+    ======================= -->
+
+    <aside class="sidebar">
+      <div>
+        <div class="sidebar-logo">
+          <h2>Vaulta</h2>
+        </div>
+
+        <nav class="sidebar-nav">
+          <a href="index.html" class="sidebar-link active"> Home </a>
+
+          <a href="subjects.html" class="sidebar-link"> Subjects </a>
+
+          <a href="settings.html" class="sidebar-link"> Settings </a>
+        </nav>
+      </div>
+
+      <div class="sidebar-footer">Version 1.0</div>
+    </aside>
+
+    <!-- ======================
+         Main Content
+    ======================= -->
+
+    <main class="main-content">
+      <header class="page-header">
+        <div class="page-title">
+          <h1>Welcome to Vaulta</h1>
+          <p>
+            Your personal study vault. Organize your knowledge one chapter at a
+            time.
+          </p>
+        </div>
+      </header>
+
+      <section class="subject-grid">
+        <div class="card">
+          <h3>Physics</h3>
+
+          <div class="card-info">
+            <p>📚 Chapters: 0</p>
+            <p>📄 Files: 0</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Chemistry</h3>
+
+          <div class="card-info">
+            <p>📚 Chapters: 0</p>
+            <p>📄 Files: 0</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Maths</h3>
+
+          <div class="card-info">
+            <p>📚 Chapters: 0</p>
+            <p>📄 Files: 0</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Coding</h3>
+
+          <div class="card-info">
+            <p>📚 Chapters: 0</p>
+            <p>📄 Files: 0</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
