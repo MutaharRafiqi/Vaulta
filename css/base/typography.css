@@ -1,0 +1,83 @@
+/* ========================================
+   VAULTA TYPOGRAPHY
+   ======================================== */
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-bold);
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--fs-xxl);
+}
+
+h2 {
+  font-size: var(--fs-xl);
+}
+
+h3 {
+  font-size: var(--fs-lg);
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/* Paragraphs */
+
+p {
+  font-size: var(--fs-md);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Links */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Small Text */
+
+small {
+  font-size: var(--fs-sm);
+  color: var(--text-muted);
+}
+
+/* Labels */
+
+label {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  color: var(--text-secondary);
+}
+
+/* Strong */
+
+strong {
+  font-weight: var(--fw-semibold);
+}
+
+/* Code */
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 14px;
+}

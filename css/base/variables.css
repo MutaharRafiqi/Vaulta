@@ -1,0 +1,75 @@
+/* ================================
+   VAULTA DESIGN SYSTEM
+   ================================ */
+
+:root {
+  /* ===== Colors ===== */
+
+  --bg: #0d1117;
+  --surface: #161b22;
+  --surface-hover: #1f2630;
+
+  --border: #2a313c;
+
+  --primary: #5b8cff;
+  --primary-hover: #79a3ff;
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* ===== Radius ===== */
+
+  --radius-small: 8px;
+  --radius-medium: 14px;
+  --radius-large: 20px;
+
+  /* ===== Shadows ===== */
+
+  --shadow-small: 0 2px 10px rgba(0, 0, 0, 0.15);
+  --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+  /* ===== Fonts ===== */
+
+  --font-family: "Inter", sans-serif;
+
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 28px;
+  --fs-xxl: 40px;
+
+  /* ===== Font Weight ===== */
+
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ===== Layout ===== */
+
+  --sidebar-width: 270px;
+  --navbar-height: 72px;
+
+  --page-width: 1500px;
+
+  /* ===== Spacing ===== */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* ===== Animation ===== */
+
+  --transition: 0.25s ease;
+}
